@@ -19,3 +19,11 @@ obj/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Environment files
+.env
+appsettings.Development.json
+
+# MAUI
+*.apk
+*.aab
