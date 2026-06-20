@@ -27,3 +27,24 @@ appsettings.Development.json
 # MAUI
 *.apk
 *.aab
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# Environment
+.env
+
+# Logs
+*.log

@@ -94,3 +94,4 @@ C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\tests\Pho
 C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\tests\PhotoLib.IntegrationTests\obj\Debug\net10.0\PhotoLib.IntegrationTests.pdb
 C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\tests\PhotoLib.IntegrationTests\obj\Debug\net10.0\PhotoLib.IntegrationTests.genruntimeconfig.cache
 C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\tests\PhotoLib.IntegrationTests\obj\Debug\net10.0\ref\PhotoLib.IntegrationTests.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\tests\PhotoLib.IntegrationTests\obj\Debug\net10.0\PhotoLib.IntegrationTests.sourcelink.json

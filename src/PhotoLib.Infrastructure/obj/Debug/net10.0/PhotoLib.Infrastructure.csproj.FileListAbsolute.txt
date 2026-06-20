@@ -15,3 +15,6 @@ C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\Photo
 C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\refint\PhotoLib.Infrastructure.dll
 C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\PhotoLib.Infrastructure.pdb
 C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\ref\PhotoLib.Infrastructure.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\PhotoLib.Infrastructure.sourcelink.json
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\bin\Debug\net10.0\PhotoLib.Infrastructure.runtimeconfig.json
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\PhotoLib.Infrastructure.genruntimeconfig.cache
