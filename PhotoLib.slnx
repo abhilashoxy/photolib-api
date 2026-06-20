@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PhotoLib.Api/PhotoLib.Api.csproj" />
+    <Project Path="src/PhotoLib.Application/PhotoLib.Application.csproj" />
+    <Project Path="src/PhotoLib.Domain/PhotoLib.Domain.csproj" />
+    <Project Path="src/PhotoLib.Infrastructure/PhotoLib.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PhotoLib.IntegrationTests/PhotoLib.IntegrationTests.csproj" />
+    <Project Path="tests/PhotoLib.UnitTests/PhotoLib.UnitTests.csproj" />
+  </Folder>
+</Solution>

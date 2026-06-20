@@ -1,0 +1,17 @@
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\bin\Debug\net10.0\PhotoLib.Infrastructure.deps.json
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\bin\Debug\net10.0\PhotoLib.Infrastructure.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\bin\Debug\net10.0\PhotoLib.Infrastructure.pdb
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\bin\Debug\net10.0\PhotoLib.Application.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\bin\Debug\net10.0\PhotoLib.Domain.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\bin\Debug\net10.0\PhotoLib.Application.pdb
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\bin\Debug\net10.0\PhotoLib.Domain.pdb
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\PhotoLib.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\PhotoLib.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\PhotoLib.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\PhotoLib.Infrastructure.AssemblyInfo.cs
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\PhotoLib.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\PhotoLib.A592208B.Up2Date
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\PhotoLib.Infrastructure.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\refint\PhotoLib.Infrastructure.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\PhotoLib.Infrastructure.pdb
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Infrastructure\obj\Debug\net10.0\ref\PhotoLib.Infrastructure.dll

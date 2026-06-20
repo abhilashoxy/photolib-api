@@ -1,0 +1,15 @@
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\bin\Debug\net10.0\PhotoLib.Application.deps.json
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\bin\Debug\net10.0\PhotoLib.Application.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\bin\Debug\net10.0\PhotoLib.Application.pdb
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\bin\Debug\net10.0\PhotoLib.Domain.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\bin\Debug\net10.0\PhotoLib.Domain.pdb
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\obj\Debug\net10.0\PhotoLib.Application.csproj.AssemblyReference.cache
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\obj\Debug\net10.0\PhotoLib.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\obj\Debug\net10.0\PhotoLib.Application.AssemblyInfoInputs.cache
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\obj\Debug\net10.0\PhotoLib.Application.AssemblyInfo.cs
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\obj\Debug\net10.0\PhotoLib.Application.csproj.CoreCompileInputs.cache
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\obj\Debug\net10.0\PhotoLib.EE80D7D3.Up2Date
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\obj\Debug\net10.0\PhotoLib.Application.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\obj\Debug\net10.0\refint\PhotoLib.Application.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\obj\Debug\net10.0\PhotoLib.Application.pdb
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Application\obj\Debug\net10.0\ref\PhotoLib.Application.dll

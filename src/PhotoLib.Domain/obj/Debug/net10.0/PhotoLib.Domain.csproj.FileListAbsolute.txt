@@ -1,0 +1,11 @@
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Domain\bin\Debug\net10.0\PhotoLib.Domain.deps.json
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Domain\bin\Debug\net10.0\PhotoLib.Domain.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Domain\bin\Debug\net10.0\PhotoLib.Domain.pdb
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Domain\obj\Debug\net10.0\PhotoLib.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Domain\obj\Debug\net10.0\PhotoLib.Domain.AssemblyInfoInputs.cache
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Domain\obj\Debug\net10.0\PhotoLib.Domain.AssemblyInfo.cs
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Domain\obj\Debug\net10.0\PhotoLib.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Domain\obj\Debug\net10.0\PhotoLib.Domain.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Domain\obj\Debug\net10.0\refint\PhotoLib.Domain.dll
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Domain\obj\Debug\net10.0\PhotoLib.Domain.pdb
+C:\Users\Abhilash K\OneDrive\Documents\Projects\photo-lib\photolib-api\src\PhotoLib.Domain\obj\Debug\net10.0\ref\PhotoLib.Domain.dll

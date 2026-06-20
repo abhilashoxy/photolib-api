@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NY/r5KRqqTw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Abhilash K\\OneDrive\\Documents\\Projects\\photo-lib\\photolib-api\\src\\PhotoLib.Api\\PhotoLib.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abhilash K\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "C:\\Users\\Abhilash K\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\Abhilash K\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
