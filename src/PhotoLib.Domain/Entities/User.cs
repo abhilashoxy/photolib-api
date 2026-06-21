@@ -13,5 +13,6 @@
         public string LastName { get; set; } = string.Empty;
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public ICollection<Photo> Photos { get; set; } = new List<Photo>();
     }
 }
