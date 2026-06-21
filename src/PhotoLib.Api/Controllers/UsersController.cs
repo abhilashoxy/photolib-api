@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using PhotoLib.Infrastructure.Persistence;
 
 namespace PhotoLib.Api.Controllers;
 
@@ -8,20 +10,41 @@ namespace PhotoLib.Api.Controllers;
 [Route("api/[controller]")]
 public class UsersController : ControllerBase
 {
+    private readonly PhotoLibDbContext _context;
+
+    public UsersController(PhotoLibDbContext context)
+    {
+        _context = context;
+    }
+
     [Authorize]
     [HttpGet("me")]
-    public IActionResult Me()
+    public async Task<IActionResult> Me()
     {
-        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier)
-                     ?? User.FindFirstValue("sub");
+        var userIdClaim = User.FindFirst("sub")?.Value;
 
-        var email = User.FindFirstValue(ClaimTypes.Email)
-                    ?? User.FindFirstValue("email");
+        if (string.IsNullOrEmpty(userIdClaim))
+        {
+            return Unauthorized();
+        }
+
+        var userId = Guid.Parse(userIdClaim);
+
+        var user = await _context.Users
+            .FirstOrDefaultAsync(x => x.Id == userId);
+
+        if (user == null)
+        {
+            return NotFound();
+        }
 
         return Ok(new
         {
-            UserId = userId,
-            Email = email
+            user.Id,
+            user.Email,
+            user.FirstName,
+            user.LastName,
+            user.CreatedAt
         });
     }
 }
