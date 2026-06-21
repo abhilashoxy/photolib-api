@@ -1,16 +1,21 @@
-using Microsoft.EntityFrameworkCore;
-using PhotoLib.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.EntityFrameworkCore;
+using PhotoLib.Application.Authentication.Interfaces;
+using PhotoLib.Infrastructure.Authentication;
+using PhotoLib.Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<PhotoLibDbContext>(options =>
     options.UseNpgsql(
         builder.Configuration.GetConnectionString("DefaultConnection")));
-
+builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+builder.Services.AddControllers();
 //Add Health Checks
 builder.Services.AddHealthChecks()
     .AddNpgSql(
@@ -19,12 +24,14 @@ builder.Services.AddHealthChecks()
         timeout: TimeSpan.FromSeconds(3),
         tags: new[] { "db", "sql", "postgres" });
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
@@ -58,7 +65,7 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast");
-
+app.MapControllers();
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)

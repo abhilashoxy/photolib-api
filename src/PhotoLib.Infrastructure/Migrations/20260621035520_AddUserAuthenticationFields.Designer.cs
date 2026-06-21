@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using PhotoLib.Infrastructure.Persistence;
@@ -11,9 +12,11 @@ using PhotoLib.Infrastructure.Persistence;
 namespace PhotoLib.Infrastructure.Migrations
 {
     [DbContext(typeof(PhotoLibDbContext))]
-    partial class PhotoLibDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260621035520_AddUserAuthenticationFields")]
+    partial class AddUserAuthenticationFields
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
