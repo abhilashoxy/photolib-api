@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi;
+
 using PhotoLib.Application.Authentication.Interfaces;
 using PhotoLib.Infrastructure.Authentication;
 using PhotoLib.Infrastructure.Persistence;
@@ -27,6 +27,16 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             IssuerSigningKey = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(
                     builder.Configuration["Jwt:Key"]!))
+        };
+
+        options.Events = new JwtBearerEvents
+        {
+            OnAuthenticationFailed = context =>
+            {
+                Console.WriteLine("JWT ERROR:");
+                Console.WriteLine(context.Exception.Message);
+                return Task.CompletedTask;
+            }
         };
     });
 
