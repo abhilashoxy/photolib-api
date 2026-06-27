@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Tokens;
 
 using PhotoLib.Application.Authentication.Interfaces;
@@ -9,11 +10,13 @@ using PhotoLib.Infrastructure.Persistence;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+IdentityModelEventSource.ShowPII = true;
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
+        options.MapInboundClaims = false;
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
@@ -25,16 +28,27 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidAudience = builder.Configuration["Jwt:Audience"],
 
             IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(
-                    builder.Configuration["Jwt:Key"]!))
+                Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
         };
 
         options.Events = new JwtBearerEvents
         {
             OnAuthenticationFailed = context =>
             {
-                Console.WriteLine("JWT ERROR:");
-                Console.WriteLine(context.Exception.Message);
+                Console.WriteLine("Authentication Failed:");
+                Console.WriteLine(context.Exception.ToString());
+                return Task.CompletedTask;
+            },
+
+            OnTokenValidated = context =>
+            {
+                Console.WriteLine("Token Validated Successfully");
+                return Task.CompletedTask;
+            },
+
+            OnChallenge = context =>
+            {
+                Console.WriteLine("Challenge Triggered");
                 return Task.CompletedTask;
             }
         };
